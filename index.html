@@ -4,23 +4,26 @@
     <meta charset="utf-8">
     <title>JavaScript Code Challenge</title>
     <script type="text/javascript" src='./lib/jquery-3.2.1.js'></script>
+    <script src="./src/solution.js"></script>
+    <script src="./src/index.js"></script>
+    <script src="./src/comment.js"></script>
+    <script src="./src/CommentList.js"></script>
   </head>
   <body>
 
     <form id="note-form">
-      <input type='text' />
-      <input type='submit' />
+      <input id="commentText" type='text' />
+      <input id="submitComment" type='submit' />
     </form>
 
 
     <form id="search-form">
-      <input type='text' />
-      <input type='submit' value =" Filter " />
+      <input id="searchTerm" type='text' />
+      <input id="search" type='submit' value =" Filter " />
     </form>
 
     <div>
       <ul id="comments-list">
-
       </ul>
     </div>
 
